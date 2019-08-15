@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 28px;
+    color: rgb(53, 51, 51);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Prompt";
+}
+
+.header {
+    background-color: rgb(151, 120, 192);
+    padding: 15px 0;
+    border: 2px solid rgb(53, 51, 51);
+    font-family: "Unkempt", "Merriweather";
+}
+
+.header h1 {
+    font-size: 42px;
+}
+
+.inputTask {
+    background-color: rgb(53, 51, 51);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newTask {
+    width: 89%;
+}
+
+.btn {
+    width: 10%;
+    background-color: rgb(187, 168, 202);
+    border: 2px solid  rgb(151, 120, 192);
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media all and (max-width: 800px) {
+    .newTask {
+        margin: 0 auto;
+    }
+    .btn {
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
+.newDiv {
+    border-bottom: 2px solid grey;
+    background-color: rgb(246, 227, 246);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newDivText {
+    width: 80%;
+   flex-basis: 1; 
+   word-break: break-all;
+   text-align: left;
+}
+
+.taskDid {
+    background-color: rgb(168, 166, 166);
+}
